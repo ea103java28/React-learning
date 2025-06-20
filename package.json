@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prettier": "prettier -w src/"
+    "prettier": "prettier -w src/",
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3",
     "my-app": "file:",
     "prettier": "^3.5.3",
     "react": "^19.1.0",

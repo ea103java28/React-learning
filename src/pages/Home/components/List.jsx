@@ -1,6 +1,6 @@
 import Item from "./Item";
 
-const List = ({ listData, deleteData }) => {
+const List = ({ listData, deleteData, submittingStatus }) => {
     console.log("listData", listData);
 
     return (
@@ -15,6 +15,7 @@ const List = ({ listData, deleteData }) => {
                         date={date}
                         time={time}
                         deleteData={deleteData}
+                        submittingStatus={submittingStatus}
                     />
                 );
             })}
